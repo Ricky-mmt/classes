@@ -1,0 +1,15 @@
+class Student:
+    def __init__(self, name, reg_number):
+        self.name = name
+        self.reg_number = reg_number
+    
+   
+    def __str__(self):
+        return f"Student(Name: {self.name}, Registration Number: {self.reg_number})"
+
+student1 = Student("ricky", "S23B13/O74")
+student2 = Student('Santos', 'S23D13/001')
+
+
+print(student1)
+print(student2)
